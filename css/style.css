@@ -1,0 +1,236 @@
+p, h1 {
+
+font-family: 'Signika Negative', sans-serif;
+
+}
+
+
+/*NAVBAR*/
+
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-nav {
+
+font-family: 'Signika Negative', sans-serif;
+margin: 35px 20px 0px;
+
+}
+
+.navbar-default .navbar-nav li a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: green;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width:768px){
+
+.logo img {
+	margin: 15px 0 0 15px;
+}
+
+.navbar-nav {
+	margin: 0;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+
+.navbar-toggle {
+	margin-top: 55px;
+}
+#design{
+	text-align: center;
+}
+
+#community .image {
+
+padding-bottom: 15px;
+}
+
+#footer {
+	text-align: center;
+
+}
+
+#footer img {
+	margin: 0 auto;
+}
+}
+
+/*SLIDER*/
+
+#slider {
+	background:url('../img/bg.jpg');
+	width: 100%;
+	background-size: cover;
+}
+
+.item {
+	color: #fff;
+	padding: 200px 0;
+}
+
+.carousel-indicators li {
+	background-color: #fff;
+	margin: 5px;
+
+}
+
+.carousel-indicators .active {
+	background-color: #008080;
+	border: 1px solid #008080;
+	margin: 5px;
+}
+
+.btn-success{
+	background-color: #008080;
+	border-color: #008080;
+	font-size: 0.8em;
+	padding: 10px 20px 10px 20px;
+	margin-top: 20px;
+}
+
+.btn-success:hover{
+background-color: black;
+
+}
+#photo {
+	background-color: #d8e5ee;
+	padding: 80px 0 80px 0;
+	text-align: center;
+}
+
+#photo h1 {
+	font-size: 1.2em;
+	font-weight: 700px;
+	color: #008080;
+}
+
+#photo .fas {
+	color: #008080;
+
+}
+
+#photo .fas:hover {
+	color: black;
+
+}
+
+/*DESING*/
+
+#design {
+	padding: 80px 0 80px;
+
+}
+
+#design h1{
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #008080;
+	padding-top: 30px;
+}
+
+
+/*COMMUNITY*/
+
+#community {
+	background-color: grey;
+	padding: 80px 0 80px 0;
+
+}
+
+#community h1 {
+	font-size: 1.5em;
+	font-weight: 700px;
+	color: #008080;
+}
+
+#community green {
+	padding-top: 30px;
+}
+
+
+/*SIGNUP*/
+
+
+#signup {
+	background:url('../img/bg-signup.jpg');
+	width: 100%
+	background-size: cover;
+	padding: 300px 0 300px 0;
+}
+
+#signup h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+
+}
+
+#signup .btn-default {
+	background-color: #008080;
+	border-color: #008080;
+
+}
+
+#signup .btn-default:hover {
+	background-color: #000;
+	border-color: #000;
+
+}
+
+#signup .fas {
+	color: #fff;
+}
+
+/*DOWLOAD*/
+#download {
+
+	background-color: grey;
+	padding: 80px 0 80px 0;
+	text-align: center;
+}
+
+#download h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #008080;
+}
+
+
+#download img{
+	margin-top: 15px;
+}
+
+/*FOOTER*/
+
+#footer {
+	padding: 80px 0 80px;
+	font-weight: 700;
+	color: #008080;
+
+}
+
+#footer p {
+	font-weight: 700;
+	color: #008080;
+
+}
+
+#footer a {
+	color: #000;
+
+}
+
+
+#footer a:hover {
+	
+	color: #008080;
+
+}
